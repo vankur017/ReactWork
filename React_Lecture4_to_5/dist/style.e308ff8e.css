@@ -1,0 +1,138 @@
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+}
+.logo{
+    width: 180px;
+    height: 125px;
+}
+.nav-items>ul{
+
+    padding: 0px 90px;
+    display: flex;
+    list-style-type: none;
+
+}
+.nav-items>ul>li{
+    padding: 0px 25px;
+    font-size: 25px;
+   
+}
+.nav-items>ul>li>a{
+    list-style: none;
+    text-decoration: none;
+    color: inherit; 
+    background: none;
+    border: none;
+    outline: none;
+}
+.nav-items>ul>li:hover{
+    transform: scale(1.06);
+    transition: transform 0.2 ease-in-out;
+    -webkit-transition: transform 0.2 ease-in-out;
+    -moz-transition: transform 0.2 ease-in-out;
+    -ms-transition: transform 0.2 ease-in-out;
+    -o-transition: transform 0.2 ease-in-out;
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+}
+.restaurant-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.res-card {
+    border-radius: 2em;
+    width: 290px;
+
+    margin: 10px;
+    padding: 20px 10px;
+    margin-left: 15px;
+}
+
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid saddlebrown;
+    transform: scale(0.998);
+    -webkit-transform: scale(0.998);
+    -moz-transform: scale(0.998);
+    -ms-transform: scale(0.998);
+    -o-transform: scale(0.998);
+}
+
+.res-card > h2 {
+    margin-top: -1px;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+   
+}
+.res-card>p{
+    padding-left: 15px;
+}
+.res-card>p>span{
+    margin: 6px 0px;
+    padding: 0px 25px;
+    font-size: smaller;
+    font-weight: bolder;
+
+}
+.res-card>h4{
+    margin: 6px 25px;
+
+}
+.res-card>img{
+    margin: 0;
+    padding: 0;
+    height: 250px ;
+    width: 294px;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+.res-logo{
+    padding: 0px 10px;
+    width: 90%;
+    overflow: hidden;
+}
+.res-card>h4{
+    padding: 0px 20px;
+}
+.res-card>span>h5{
+    padding: 0px 20px;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Break long words */
+}
+#footer{
+    height: 10em;
+    margin-top: 0;
+    min-width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+
+}
+#footer>div{
+    padding: 0 40px;
+    
+}
+#footer>div>ul{
+    list-style-type: none;
+}
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
