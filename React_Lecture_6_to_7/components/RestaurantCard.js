@@ -10,6 +10,7 @@ const RestaurantCard = (props)=>{  //IMP NOTE:- destructuring on the fly:- means
   
    
    const {resData} = props // destructuing the actual props passed to function
+   console.log(resData);
    
    const {
     cloudinaryImageId, name, cuisines, costForTwo, avgRating, sla} =
@@ -25,6 +26,7 @@ const RestaurantCard = (props)=>{  //IMP NOTE:- destructuring on the fly:- means
             <img 
         className="res-logo"
         alt="res-logo" 
+       
         src= {CDN_URL 
             + cloudinaryImageId}
           />

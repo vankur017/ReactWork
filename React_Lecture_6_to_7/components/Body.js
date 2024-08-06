@@ -8,13 +8,13 @@ const Body = ()=>{
 
 
     const [restaurantList, setrestaurantList] =useState([]);
-    const [allRestaurants, setAllRestaurants] = useState([]);
+  
     const [searchTxt, setSearch] = useState("");
   
 
     useEffect(()=>{
 
-       fetchData();
+       fetchData(); 
        
     }, [])
     
